@@ -7,4 +7,11 @@
     <tr> - table row
     <th> -  table heading
     <tbody> - table body
-    ```
+
+```
+5. Button tye - reset - resets all the fields in the form.
+
+```
+    <button type="reset">Reset</button>
+
+```
