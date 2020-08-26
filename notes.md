@@ -32,3 +32,10 @@
             height: 100vh;
         }
 ```
+
+## CSS Grid
+
+* Similar to flexbox. (but more powerfull)
+* eg: display: grid;   // creates a grid
+* "grid-template-columns" defines width and number of cols.
+* Better for 2 dimensional layouts.
