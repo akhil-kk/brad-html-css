@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Area</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-areas: 
+            'header header header'
+            'content content content'
+            'box1 box2 box3'
+            'footer footer footer';
+            grid-gap: 1rem;
+        }
+
+        .header {
+            grid-area: header;
+            text-align: center;
+        }
+
+        .header,
+        .content,
+        .box1,
+        .box2,
+        .box3,
+        .sidebar,
+        .footer {
+            border: 1px #ccc solid;
+        }
+
+        .content {
+            grid-area: content;
+        }
+
+        .sidebar {
+            grid-area: sidebar;
+        }
+
+        .footer {
+            grid-area: footer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header"><h1>My Website</h1></header>
+        <section class="content">
+            <h3>Welcome To My Site</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, animi. Consequatur recusandae obcaecati excepturi, delectus blanditiis vitae autem neque! Ullam ipsa earum provident nesciunt ipsam praesentium totam quasi ipsum labore.</p>
+        </section>
+        <aside class="sidebar">
+            <h3>Contact us</h3>
+            <ul>
+                <li>Some company</li>
+                <li>Kochi</li>
+                <li>555-55-55-55</li>
+            </ul>
+        </aside>
+        <div class="box1">
+            <h3>Heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quibusdam odio, voluptas nulla beatae tempore reprehenderit sed aut. Eum beatae debitis laudantium sapiente nulla neque ea ratione perferendis accusantium fugiat!</p>
+        </div>
+        <div class="box2">
+            <h3>Heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quibusdam odio, voluptas nulla beatae tempore reprehenderit sed aut. Eum beatae debitis laudantium sapiente nulla neque ea ratione perferendis accusantium fugiat!</p>
+        </div>
+        <div class="box3">
+            <h3>Heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quibusdam odio, voluptas nulla beatae tempore reprehenderit sed aut. Eum beatae debitis laudantium sapiente nulla neque ea ratione perferendis accusantium fugiat!</p>
+        </div>
+        <footer class="footer"><p>Copyright &copy:2019</p></footer>
+    </div> 
+</body>
+</html>
