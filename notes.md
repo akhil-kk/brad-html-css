@@ -39,3 +39,14 @@
 * eg: display: grid;   // creates a grid
 * "grid-template-columns" defines width and number of cols.
 * Better for 2 dimensional layouts.
+
+### CSS units relative 
+```
+%   -To parent element
+em  -To font size of parent element
+rem -To font size of root elemnt
+vw  -To 1% of viewport width
+vh  -To 1% of viewport height
+```
+
+
