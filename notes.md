@@ -124,6 +124,8 @@ background: var(--light-color); //usage
          width: 600px;
      }
  }
+ ```
+
 
 
 
